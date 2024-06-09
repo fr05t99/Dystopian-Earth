@@ -1,11 +1,15 @@
 package com.earth.dystopia.upi.pojo;
 
 import com.earth.dystopia.upi.pojo.enums.BankName;
-import lombok.Data;
+import lombok.*;
 
 import java.util.List;
 
-@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@Builder
 public class BankAccount {
     BankName bankName;
 
